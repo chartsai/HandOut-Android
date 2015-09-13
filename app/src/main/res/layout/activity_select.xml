@@ -5,7 +5,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.iamtuhao.handout_android.SelectActivity">
+    tools:context="org.handout.android.handout_android.SelectActivity">
 
     <ListView
         android:id="@+id/presentations_ListView"

@@ -1,4 +1,4 @@
-package com.iamtuhao.handout_android;
+package org.handout.android.handout_android;
 
 import android.app.Activity;
 import android.app.Dialog;
