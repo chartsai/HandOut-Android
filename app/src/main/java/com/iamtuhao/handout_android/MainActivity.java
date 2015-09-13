@@ -79,8 +79,9 @@ public class MainActivity extends Activity
                     return;
                 }
                 Intent intent = new Intent(MainActivity.this, SelectActivity.class);
-                // TODO put Double and start intent
-                Toast.makeText(MainActivity.this, lat + "," + lng, Toast.LENGTH_SHORT).show();
+                intent.putExtra(SelectActivity.LAT, lat);
+                intent.putExtra(SelectActivity.LNG, lng);
+                startActivity(intent);
             }
         });
     }
