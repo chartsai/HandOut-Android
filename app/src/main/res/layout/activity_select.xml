@@ -11,6 +11,8 @@
         android:id="@+id/presentations_ListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FFDDDDDD"
+        android:dividerHeight="5dp"
         tools:listitem="@layout/list_cell" />
 
 </LinearLayout>

@@ -1,21 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
+    android:padding="10dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <TextView
         android:id="@+id/title_TextView"
+        android:text="Title"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/owner_TextView"
+        android:text="Owner"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/distance"
+        android:id="@+id/distance_TextView"
+        android:text="Distance"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/datetime_TextView"
+        android:text="Datetime"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/downloadUrl_TextView"
+        android:text="Datetime"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
